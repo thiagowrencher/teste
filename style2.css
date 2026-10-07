@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
+
+
+
+:root{
+--fonte1: 'MedievalSharp' , cursive;
+}
+
+header{
+    background-color: black;
+    background-image: url(open.png);
+    background-position: center;
+
+
+    background-size: cover;
+    padding: 30px;
+    padding-bottom: 8em;
+
+}
+body{
+margin: 0px;
+background:black url(abertura2.png) center center no-repeat fixed;
+background-size: cover;
+
+
+
+}
+
+
+
+#h2header{
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+padding: 0px;
+margin: 0px;
+text-shadow: 2px 2px 0px black;
+}
+
+p{
+color: rgb(166, 231, 15);
+text-align: center;
+}
+
+.layout {
+    display: flex;
+    width: 1265px;
+    margin: auto;
+}
+
+nav{
+ position: absolute;
+ left: 0px;
+ top: 158px;
+ width: 422px;
+ display: flex;
+ flex-direction: column;
+ width: 150px0;
+ 
+}
+nav a{
+text-decoration: none;
+color: rgb(241, 11, 11);}
+
+#tr1{
+color: rgb(0, 217, 255);
+font-family: var(--fonte1);
+text-align: left;
+font-size: 2em;}
+
+
+#pnav{
+color: blue;
+text-align: left;
+padding: 0px;
+margin: 0px;}
+
+main{
+text-align: center;
+width: 400px;
+background-color: white;
+
+padding: 10px;
+margin: auto;
+border: 1px solid darkblue;
+border-radius: 0px 0px 10px 10px;
+
+}
+footer{
+    color: aqua;
+    background-color: black;
+}
+#h2final{
+    color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table th {
+  background-image: url('textura.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 20px; 
+  color: rgba(20, 1, 1, 0.877);
+  text-align: center;
+}
